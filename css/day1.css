@@ -1,0 +1,155 @@
+
+
+
+html, body {
+    margin:0;
+    height:100vh;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(255,209,67,1) 0%, rgba(255,145,83,1) 90% );
+    
+
+}
+
+.wrapper{
+    width:100vw;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.container {
+    width:1200px;
+    height:600px;
+    box-shadow: 3px 5px 8px rgba(0, 0, 0, 0.5);
+    
+}
+
+.column{
+    width:50%;
+    background-color:white;
+    height:100%;
+}
+
+.column_trans{
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+
+    
+    
+}
+
+.right{
+    float:right;
+}
+
+
+
+
+.left{
+    
+    color:#FFEE58;
+    background-image: url("../img/day1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    float:left;
+
+}
+
+.column_padding{
+    padding:50px;
+}
+
+.logo {
+    width:100%;
+    height:150px;
+}
+
+
+.right_main_content{
+    width:100%;
+    height:300px;
+    color:white;
+}
+
+.title{
+    font-size:45px;
+    padding-bottom: 30px;
+    line-height: 1.2em;
+}
+
+.footer{
+    
+    font-size:12px;
+}
+
+.footer > span {
+    padding-right:15px;
+}
+
+
+.btn_wrapper{
+    width:140px;
+    padding:10px 10px 10px 15px;
+    border-radius: 5px;
+    background-color: white;
+    color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.yellow{
+    background-color:#FFEE58;
+}
+
+.menu_icon{
+    
+    font-size:20px;
+    width:100%;
+    height:150px;
+}
+
+.menu_icon > i{
+    float: right;
+}
+
+.title_left{
+    font-size:25px;
+    padding-bottom:40px;
+}
+
+input{
+    all:unset;
+    border-bottom: 1px solid grey;
+    font-size:12px;
+    width:80%;
+    padding-bottom:5px;
+    padding-left:5px;
+}
+.input_container{
+    padding-bottom: 20px;
+}
+
+.left_footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.account_btn{
+    padding-right:20px;
+    color:gray;
+    font-size:12px;
+    padding-left:30px;
+}
+
+.btn_text{
+    border-bottom: 1px solid gray;
+}
+
+i {
+    color:#757575;
+}
