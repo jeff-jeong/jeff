@@ -1,0 +1,262 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap');
+</style>
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  background-color:#BDBDBD;
+}
+
+.app-wrapper{
+  display: flex;
+  height:100vh;
+  width:100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.app-container{
+  width:260px;
+  height:600px;
+  padding:25px;
+  padding-bottom:10px;
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 0 5px 20px #E0E0E0;
+}
+
+.app{
+  width:100%;
+  position: relative;
+  
+}
+
+.app-container:first-child .app{
+  padding-bottom: 80px;
+
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  height:10%;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height:90%;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:30px;
+}
+
+.profile img{
+  width:80px;
+  height:80px;
+  background-color: white;
+  border-radius: 50%;
+  margin-bottom:30px;
+  box-shadow: 0 5px 8px rgba(91, 14, 135, 0.6);;
+}
+
+.profile__info {
+  text-align: center;
+  margin-bottom:30px;
+}
+
+.profile__info-title {
+  font-size:26px;
+  font-weight:700;
+  margin-bottom:10px;
+}
+
+.profile__info-subtitle{
+  color:rgba(0, 0, 0, 0.4);
+  font-size:16px;
+  font-weight: 700;
+}
+
+.profile__btns{
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:110px;
+  height:35px;
+  background-color: #212121;
+  color:white;
+  border-radius: 25px;
+}
+
+.btn:last-child{
+  background-color: white;
+  color:#212121;
+  box-shadow: 0 5px 10px #EEEEEE;
+}
+
+.btn:last-child span {
+  font-size:14px;
+  color:#BDBDBD;
+}
+
+.btn i {
+  margin-right:6px;
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:12px 20px;
+ 
+}
+ .border {
+  box-shadow: 0 5px 10px #EEEEEE;
+  background-color: white;
+  border-radius: 15px;
+
+
+}
+
+.song__column {
+  display: flex;
+  align-items: center;
+}
+
+.song img {
+  width:40px;
+  height:40px;
+  background-color:pink;
+  border-radius: 10px;
+  margin-right:10px;
+}
+
+.song__info-title {
+ color:rgba(0, 0, 0, 0.4);
+ font-size:13px; 
+ margin-bottom:8px;
+}
+
+.song__info-subtitle{
+  font-weight: 700;
+  font-size:15px;
+}
+
+.play-bar{
+  position: absolute;
+  bottom:0;
+  right:0;
+  left:0;
+  width:100%;
+  height:50px;
+  background-color:#212121;
+  border-radius: 30px;
+  color:white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-bar__info {
+  margin-left:20px;
+}
+
+.play-bar__info-title {
+  font-size: 10px;
+  margin-bottom:5px;
+  color:#E0E0E0;
+}
+
+.play-bar__info-subtitle {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.play-bar__btns {
+  margin-right:20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.play-bar__btns i:nth-child(2){
+  margin:0 15px;
+}
+
+.profile .img-big {
+  width:220px;
+  height:220px;
+  background-color: tomato;
+  border-radius: 30px;
+  box-shadow: 0 4px 15px  rgba(91, 14, 135, 0.6);
+}
+
+.progress-bar {
+  margin-bottom:30px;
+}
+
+.times {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:15px;
+  font-size:14px;
+}
+
+.bar-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bar-btns i:first-child{
+  color:#E0E0E0;
+}
+
+.bar-btns i:last-child{
+  color:#E0E0E0;
+}
+
+.fa-play-circle {
+  border-radius: 50%;
+  box-shadow: 0 5px 10px #BDBDBD;
+}
+
+.bar {
+  width:100%;
+  height:4px;
+  background-color: #F5F5F5;
+  border-radius: 20px;
+}
+
+.bar-now {
+  width:65%;
+  height:4px;
+  background-color: #757575;
+  position: relative;
+}
+
+.bar-now i {
+  position: absolute;
+  right:0;
+  top:-3px;
+  bottom:0;
+  font-size:8px;
+  color:#757575;
+}
